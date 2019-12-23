@@ -14,7 +14,6 @@ driver.find_element_by_name("username").send_keys(username.split("\n")[0])
 driver.find_element_by_name("password").send_keys(password.split("\n")[0])
 time.sleep(1);
 driver.find_element_by_xpath("/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[4]/button").click()
-time.sleep(2)
 while not os.path.exists(codePath):
     time.sleep(1)
 fcode = open(codePath, "r")

@@ -38,7 +38,7 @@ El atacante mediante alguna de las de técnicas de hacking (dnsspoofing, ingenie
 _[ENG]  
 The attacker using hacking techniques (dnsspoofing, social engineering, etc.) redirect the victim with 2FA active in instagram to fake instagram web. Once the victim logs in the fake web, the attacker's machine will run a web browser and it will go to original instagram to log in with victim's credentials. This will cause instagram send the validation code to the victim. When the victim receives the code, he will put it in the fake web. The attacker will get the code and will complete the log in the original instagram web, gaining the access to the victim account._
 
-![alt text](https://raw.githubusercontent.com/afernandezb92/2FAGmailPhising/master/gmailPhising2FA.PNG)
+![alt text](https://raw.githubusercontent.com/afernandezb92/2FAInstagram/master/2FAInstagram.png)
 
 ## POC
 Pendiente

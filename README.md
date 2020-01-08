@@ -32,13 +32,13 @@ chmod +x geckodriver
 ./run.sh
 ```
 
-Se debe eliminar el contenido del fichero code.txt al finalizar la ejecución.
+Se debe eliminar el contenido del fichero code.txt para poder realizar nuevas capturas.
 
 _[ENG]  
-At the end of the execution, you must delete code.txt file._
+you must delete code.txt file for capturing new users._
 
 ````
-rm /var/www/html/instagram/instagram/code.txt
+rm /var/www/html/instagram/code.txt
 ````
 
 ## Escenario

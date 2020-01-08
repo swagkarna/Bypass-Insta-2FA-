@@ -32,6 +32,15 @@ chmod +x geckodriver
 ./run.sh
 ```
 
+Se debe eliminar el contenido del fichero code.txt al finalizar la ejecución.
+
+_[ENG]  
+At the end of the execution, you must delete code.txt file._
+
+````
+rm /var/www/html/instagram/instagram/code.txt
+````
+
 ## Escenario
 El atacante mediante alguna de las de técnicas de hacking (dnsspoofing, ingeniería social, etc.) redirige a una victima que tiene activado 2FA a la web que suplanta Instagram. Una vez que la víctima introduzca sus correo y contraseña en la página falsa, la máquina del atacante iniciará un navegador automáticamente, introduciendo en la web real de Instagram las credenciales de la víctima, provocando esto que la víctima reciba el mensaje con el código del 2FA. Cuando la víctima reciba el código lo introducirá en la página falsa y cuando lo introduzca la máquina del atacante obtendrá ese código y completará el inicio de sesión en la web legítima de Instagram, obteniendo así el acceso a la cuenta de la víctima.
 

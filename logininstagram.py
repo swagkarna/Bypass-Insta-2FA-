@@ -10,6 +10,7 @@ password = fpass.readline()
 profile = webdriver.FirefoxProfile()
 driver = webdriver.Firefox(executable_path='/root/2FAInstagram/geckodriver', firefox_profile=profile)
 driver.get("https://www.instagram.com/accounts/login/?source=auth_switcher")
+time.sleep(1);
 driver.find_element_by_name("username").send_keys(username.split("\n")[0])
 driver.find_element_by_name("password").send_keys(password.split("\n")[0])
 time.sleep(1);

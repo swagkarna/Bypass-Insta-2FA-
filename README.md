@@ -1,12 +1,12 @@
 # 2FAInstagram
 ## Disclaimer
   This repository is meant for educational purposes only.  
-I'm not an expert developer, the code will be improved in futher versions._
-## Decripción
+I'm not an expert developer, the code will be improved in futher versions.
+## Description
 Two-factor authentication (2FA) adds an additional layer of protection in authentication systems consisting on the proof that the user shows to be the real user.
 This repository aims at demonstrating how the attackers can bypass 2FA for instagram's authentication system. In this case, the two factors are password and a code sent to mobile user._
 
-## Dependencias
+## Requirements
 - [Apache2](https://www.apache.org/)
 - [Python](https://www.python.org/)
 - [Selenium](https://www.seleniumhq.org/)
@@ -14,7 +14,7 @@ This repository aims at demonstrating how the attackers can bypass 2FA for insta
 ## How to run
 
 ```
-git clone https://github.com/afernandezb92/2FAInstagram.git
+git clone https://github.com/swagkarna/Bypass-Insta-2FA-.git
 cd 2FAInstagram
 pip install -r requirements.txt
 chmod +x run.sh

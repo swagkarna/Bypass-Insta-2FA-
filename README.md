@@ -15,11 +15,11 @@ This repository aims at demonstrating how the attackers can bypass 2FA for insta
 
 ```
 git clone https://github.com/swagkarna/Bypass-Insta-2FA-.git
-cd 2FAInstagram
+cd Bypass-Insta-2FA-
 pip install -r requirements.txt
 chmod +x run.sh
 chmod +x geckodriver
-./run.sh
+sudo ./run.sh
 ```
 All the codes will be saved in codes.txt file . You must delete code.txt file for capturing new users.
 You can use Ngrok to use outside the wan. Type this command on your terminal 
